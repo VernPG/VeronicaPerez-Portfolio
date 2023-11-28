@@ -1,0 +1,21 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: rgb(16, 47, 47);
+  border-radius: 40px;
+}
+
+
+
+footer {
+  color:antiquewhite;
+
+}
+
+.bg-body-tertiary  {
+  max-width:250px;
+  text-align: center;
+
+}
