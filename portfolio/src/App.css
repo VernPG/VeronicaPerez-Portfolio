@@ -3,19 +3,14 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  background-color: rgb(16, 47, 47);
-  border-radius: 40px;
+
 }
-
-
 
 footer {
-  color:antiquewhite;
-
+  color: antiquewhite;
+  align-items: last baseline;
 }
 
-.bg-body-tertiary  {
-  max-width:250px;
-  text-align: center;
 
-}
+
+
