@@ -17,16 +17,16 @@ export default function Homepage() {
 
       <aside>
         
-        <Stack direction="horizontal" gap={3}>
+        {/* <Stack direction="horizontal" gap={3}>
           <Link to="#Resume" className="p-2">Resume</Link>
           <Link to="#Projects" className="p-2">Projects</Link>
-          <Link to="/src/components/About.jsx" className="p-2">About & Contact</Link>
-        </Stack>
+          <Link to="#About" className="p-2">About & Contact</Link>
+        </Stack> */}
 
         <Card>
-          {/* <Image variant="top" className="img-fluid rounded-start" src="./src/assets/linkedinprofile pict.jpeg" roundedCircle/> */}
+
           <Card.Body>
-            <Card.Title>~Who I Am~</Card.Title>
+            <Card.Title>~A Bit About Me~</Card.Title>
             <Card.Text className="card">
               "As a seasoned leader with 25 years of management experience, I
               have developed a deep understanding of what it takes to build and

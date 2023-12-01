@@ -25,7 +25,7 @@
 } */
 
 body {
-  background-image: url("./assets/girl-with-red-hat-Mub25UWrchg-unsplash.jpg");
+  background-image: url("./assets/photo-1505682634904-d7c8d95cdc50.avif");
   background-size: cover;
 }
 
@@ -47,10 +47,10 @@ aside {
   border-radius: 14px;
   background-color: transparent;
   border-style: double;
-  box-shadow: 20px 20px 20px 20px #8f7698;
+  box-shadow: 20px 20px 20px 20px antiquewhite;
   color: rgb(15, 139, 130);
-  /* max-width: 500px;
-  max-height: 550px; */
+  max-width: 750px;
+  max-height: 350px;
   padding: 20px;
   margin-top: 80px;
   /* margin-left: 40px; */
@@ -84,13 +84,76 @@ aside {
 } */
 
 .card {
-  background: linear-gradient(90deg, #fdbb2d 0%, #3a1c71 100%);
+  background: black;
 
   color: white;
   font-size: larger;
   /* align-items: center; */
+  font-style: italic;
+  font-weight: 500;
+  border-radius: 14px;
+  background-color: transparent;
+  border-style: double;
+  box-shadow: 20px 20px 20px 20px antiquewhite;
+}
+.card2 {
+  background: black;
+  margin-top: 80px;
+  color: white;
+  font-size: larger;
+  align-items: center;
 }
 
+.mb-2 {
+  font-size: 65px;
+}
+
+.cardtext{
+  font-size: 25px;
+}
+
+p{
+  font-size: 25px;
+}
+.links {
+  font-size: 35px;
+}
+
+ul {
+  font-size: 25px;
+  margin-top: 40px;
+  color: whitesmoke;
+  border: solid;
+  background-color: black;
+  border-radius: 14px;
+  padding: 5px;
+}
+.d-block {
+  max-width: 740px;
+  max-height: 640px;
+  padding-top: 10px;
+  margin: auto;
+  border: whitesmoke;
+
+
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+h5, figcaption {
+  overflow: hidden;
+  font-size: 30px;
+  border: whitesmoke;
+  background-color: grey;
+  color: whitesmoke;
+  border-radius: 14px;
+  align-content: center;
+
+}
 /* button {
   border-radius: 8px;
   border: 1px solid transparent;
