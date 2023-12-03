@@ -12,16 +12,16 @@ export default function About() {
         <Card.Body>
           <Card.Title></Card.Title>
           <Card.Subtitle className="mb-2 text-muted">About Me</Card.Subtitle>
-          <Card.Text className="cardtext">
-            <p>
+          <Card.Text className="cardtext text-muted">
+            <p className="text-muted">
               As a full-stack coding bootcamp graduate, I am seeking
-              opportunities in operations, product management, or human
+              opportunities in operations, product management, or a human
               resources technical recruiter after I graduate from the course. My
               background includes client experience, management operations,
               human resource, and inventory management.
             </p>
 
-            <p>
+            <p className="text-muted">
               I have experience in recruiting, applicant screening, employee
               orientation, evaluation and placement, small and large scale
               project management, working with vendors, strategic planning,
@@ -29,14 +29,14 @@ export default function About() {
               developing and implementing new training and employee programs.
             </p>
 
-            <p>
+            <p className="text-muted">
               My excellent ability to address and implement strategic plans for
               talent acquisition, retention, succession planning, and managing a
               fluctuating budget makes me an ideal candidate for any of the
               aforementioned roles.
             </p>
           </Card.Text>
-          <p>Let's Connect</p>
+          <p className="text-muted">Let's Connect</p>
           <Card.Link
             className="links"
             href="https://docs.google.com/document/d/1z_g0oW8WTrCLP8OUsIzq5weJPPEbX7iU2G3urSuZIKg/edit?usp=sharing"

@@ -39,8 +39,16 @@ export default function Homepage() {
               skills and experience make me an ideal candidate for a product
               manager role."
             </Card.Text>
+            <img className="profile"
+            src="/src/assets/linkedinprofile pict 2.jpeg"
+            width="150"
+            height="100"
+            
+            alt="linkedin"
+          />
           </Card.Body>
         </Card>
+
       </aside>
     </>
   );

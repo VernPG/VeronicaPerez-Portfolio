@@ -7,7 +7,15 @@ export default function Navbar2(){
     return (
         <Navbar bg="dark" data-bs-theme="dark">
         <Container>
-          <Navbar.Brand href="#home">Veronica Perez's Portfolio</Navbar.Brand>
+          <Navbar.Brand className="icon" >
+            <img
+            src="/src/assets/newLogoCircle.svg"
+            width="150"
+            height="100"
+            className="d-inline-block align-top"
+            alt="React Bootstrap logo"
+          />
+        </Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="Homepage">Home</Nav.Link>
             <Nav.Link href="Resume">Resume</Nav.Link>
