@@ -7,9 +7,18 @@ export default function Project() {
   return (
     <>
 
-
+      <header>
+        <ul>
+          "As a dedicated bootcamp participant, I have successfully accomplished
+          numerous individual and collaborative projects, enhancing my
+          proficiency as both a skilled coder and an adept project manager.<br></br>
+          Kindly explore my GitHub repositories under the username @VernPg or
+          access the provided links for detailed insights into the highlighted
+          projects."
+        </ul>
+      </header>
       <Carousel fade>
-        <Carousel.Item className="item">
+        <Carousel.Item>
           <img
             className="d-block "
             src="/src/assets/Emotisong.png"
@@ -20,7 +29,7 @@ export default function Project() {
             <figcaption>Visit the Repo Here and the User Site Here </figcaption>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item className="item">
+        <Carousel.Item>
           <img
             className="d-block "
             src="/src/assets/WeatherDashboard.png"
@@ -31,7 +40,7 @@ export default function Project() {
             <figcaption>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</figcaption>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item className="item">
+        <Carousel.Item>
           <img
             className="d-block "
             src="/src/assets/FirstPortfolio.png"
@@ -44,7 +53,7 @@ export default function Project() {
             </figcaption>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item className="item">
+        <Carousel.Item>
           <img
             className="d-block "
             src="/src/assets/Scheduler.png"
@@ -57,7 +66,7 @@ export default function Project() {
             </figcaption>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item className="item">
+        <Carousel.Item>
           <img
             className="d-block "
             src="/src/assets/PWA.png"
@@ -70,7 +79,7 @@ export default function Project() {
             </figcaption>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item className="item">
+        <Carousel.Item>
           <img
             className="d-block "
             src="/src/assets/ExpressNoteTaker.png"
@@ -85,16 +94,6 @@ export default function Project() {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
-      <header>
-        <ul>
-          "As a dedicated bootcamp participant, I have successfully accomplished
-          numerous individual and collaborative projects, enhancing my
-          proficiency as both a skilled coder and an adept project manager.<br></br>
-          Kindly explore my GitHub repositories under the username @VernPg or
-          access the provided links for detailed insights into the highlighted
-          projects."
-        </ul>
-      </header>
  
    
     </>
