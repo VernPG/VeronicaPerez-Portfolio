@@ -1,6 +1,6 @@
 import React from "react";
 import Carousel from 'react-bootstrap/Carousel';
-import styled from 'styled-components';
+
 // import './src/index.css'
 export default function Project() {
 
@@ -18,7 +18,7 @@ export default function Project() {
         </ul>
       </header>
 
-      <Carousel >
+      <Carousel>
         <Carousel.Item className="item">
           <img
             className="d-block "

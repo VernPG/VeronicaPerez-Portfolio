@@ -36,7 +36,7 @@ export default function About() {
               aforementioned roles.
             </p>
           </Card.Text>
-          <p className="text-muted">Let's Connect</p>
+          <p className="mb-2 text-muted">Let's Connect</p>
           <Card.Link
             className="links"
             href="https://docs.google.com/document/d/1z_g0oW8WTrCLP8OUsIzq5weJPPEbX7iU2G3urSuZIKg/edit?usp=sharing"

@@ -20,18 +20,11 @@ export default function Homepage() {
       </header>
 
       <aside>
-        
-        {/* <Stack direction="horizontal" gap={3}>
-          <Link to="#Resume" className="p-2">Resume</Link>
-          <Link to="#Projects" className="p-2">Projects</Link>
-          <Link to="#About" className="p-2">About & Contact</Link>
-        </Stack> */}
-
         <Card>
 
           <Card.Body>
-            <Card.Title className="title">~A Bit About Me~</Card.Title>
-            <Card.Text className="card">
+            <Card.Title className="title text-muted">~A Bit About Me~</Card.Title>
+            <Card.Text className="card text-muted">
               "As a seasoned leader with 25 years of management experience, I
               have developed a deep understanding of what it takes to build and
               manage high-performing teams. I am passionate about developing
@@ -39,13 +32,7 @@ export default function Homepage() {
               skills and experience make me an ideal candidate for a product
               manager role."
             </Card.Text>
-            <img className="profile"
-            src="/src/assets/linkedinprofile pict 2.jpeg"
-            width="150"
-            height="100"
-            
-            alt="linkedin"
-          />
+         <img className="profile" src="/src/assets/linkedinprofile pict 2.jpeg"/>
           </Card.Body>
         </Card>
 
