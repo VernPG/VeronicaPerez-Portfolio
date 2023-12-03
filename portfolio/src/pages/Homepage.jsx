@@ -6,10 +6,14 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Navbar from "react-bootstrap/Navbar";
 import { Link } from 'react-router-dom';
+import styled from 'styled-components';
 
 export default function Homepage() {
+
   return (
     <>
+
+
       <header>
         <h2>Welcome to the Portfolio of</h2>
         <h1>Veronica Perez</h1>

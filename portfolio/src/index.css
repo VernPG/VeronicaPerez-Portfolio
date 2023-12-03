@@ -25,7 +25,7 @@
 } */
 
 body {
-  background-image: url("./assets/photo-1505682634904-d7c8d95cdc50.avif");
+  background-image: url("./assets/william-j-simpson-LqRJ1Oc9zlw-unsplash.jpg");
   background-size: cover;
 }
 
@@ -48,7 +48,7 @@ aside {
   background-color: transparent;
   /* border-style: double; */
   /* box-shadow: 20px 20px 20px 20px antiquewhite; */
-  color: rgb(100,78,72);
+  color: rgb(100, 78, 72);
   max-width: 750px;
   max-height: 350px;
   padding: 20px;
@@ -58,16 +58,7 @@ aside {
   text-align: center;
 }
 
-.bg-body-tertiary {
-  font-size: 30px;
-  max-width: 250px;
 
-
-}
-
-.resume {
-  color: #421273;
-}
 .p-2 {
   border: #3a1c71;
   padding: 10px;
@@ -76,23 +67,19 @@ aside {
   color: #3a1c71;
   font-size: 25px;
   font-weight: 300;
-
-
 }
 /* .me-auto {
   align-items: center;
 } */
 
 .card {
-  background: black;
-
   color: white;
   font-size: larger;
   /* align-items: center; */
   font-style: italic;
   font-weight: 500;
   border-radius: 14px;
-  background-color: transparent;
+  background-color: black;
   border-style: double;
   box-shadow: 20px 20px 20px 20px antiquewhite;
 }
@@ -108,11 +95,11 @@ aside {
   font-size: 65px;
 }
 
-.cardtext{
+.cardtext {
   font-size: 25px;
 }
 
-p{
+p {
   font-size: 25px;
 }
 .links {
@@ -132,37 +119,35 @@ ul {
 .carousel {
   padding-top: 40px;
   text-align: center;
-  margin: 0  auto;
+  margin: 0 auto;
   align-items: center;
   display: inline-block;
 }
 
-h5, figcaption {
-
+h5,
+figcaption {
   /* position: absolute; */
-  height:100px;
-  width:100%;
-  top:25%;
-  bottom:25%;
-  margin-top: -25px; 
+  height: 100px;
+  width: 100%;
+  top: 25%;
+  bottom: 25%;
+  margin-top: -25px;
   margin-bottom: -20px;
   font-size: 30px;
   color: black;
-
-  align-content: center;
-
 }
-img{
-  max-height: 540px;
+img {
+  max-height: 600px;
   max-width: 540px;
   padding-top: 20px;
+  border-radius: 50%;
 }
 .item {
   border: 20px;
-  background-color: rgb(249, 233, 213);
+  background-image: url("./assets/marjan-blan-_kUxT8WkoeY-unsplash.jpg");
+  background-size: cover;
   width: 840px;
   height: 740px;
-
 }
 
 .d-block {
@@ -177,11 +162,7 @@ img{
   flex-wrap: wrap;
   object-fit: contain;
   align-content: center;
-
-
 }
-
-
 
 /* button {
   border-radius: 8px;

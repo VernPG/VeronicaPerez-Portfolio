@@ -1,5 +1,6 @@
 import React from "react";
 import Carousel from 'react-bootstrap/Carousel';
+import styled from 'styled-components';
 
 export default function Project() {
 
@@ -8,7 +9,7 @@ export default function Project() {
     <>
 
 
-      <Carousel fade>
+      <Carousel >
         <Carousel.Item className="item">
           <img
             className="d-block "
