@@ -24,9 +24,12 @@
   color: #535bf2;
 } */
 
+@import url("https://fonts.googleapis.com/css2?family=Atomic+Age&family=Cormorant&family=Courier+Prime:wght@400;700&family=Monoton&family=Righteous&family=Special+Elite&family=Spectral:wght@300&display=swap");
+
 body {
   background-image: url("./assets/william-j-simpson-LqRJ1Oc9zlw-unsplash.jpg");
   background-size: cover;
+  font-family: "Courier Prime";
 }
 
 h1 {
@@ -34,12 +37,14 @@ h1 {
   font-weight: bolder;
   font-style: italic;
   color: white;
+  font-family: "Special Elite";
 
   text-align: center;
 }
 h2 {
   padding-top: 50px;
   text-align: center;
+  font-family: "Courier Prime";
 }
 aside {
   font-style: italic;
@@ -58,7 +63,6 @@ aside {
   text-align: center;
 }
 
-
 .p-2 {
   border: #3a1c71;
   padding: 10px;
@@ -71,17 +75,24 @@ aside {
 /* .me-auto {
   align-items: center;
 } */
-
+.title {
+  font-family: "Special Elite";
+  font-weight: bold;
+}
 .card {
-  color: white;
-  font-size: larger;
+  color: black;
+  font-size: 25px;
   /* align-items: center; */
   font-style: italic;
-  font-weight: 500;
+  font-weight: bolder;
+  font-family: "Courier Prime";
+
   border-radius: 14px;
   background-color: black;
   border-style: double;
   box-shadow: 20px 20px 20px 20px antiquewhite;
+  background-image: url("./assets/marjan-blan-_kUxT8WkoeY-unsplash.jpg");
+  background-size: cover;
 }
 .card2 {
   background: black;
@@ -95,10 +106,6 @@ aside {
   font-size: 65px;
 }
 
-.cardtext {
-  font-size: 25px;
-}
-
 p {
   font-size: 25px;
 }
@@ -110,10 +117,19 @@ ul {
   font-size: 25px;
   margin-top: 40px;
   color: whitesmoke;
-  border: solid;
-  background-color: black;
+  border-radius: 14px;
+  background: linear-gradient(
+    90deg,
+    rgba(130, 123, 111, 1) 1%,
+    rgba(147, 135, 112, 1) 23%,
+    rgba(113, 101, 78, 1) 48%,
+    rgba(62, 51, 28, 1) 71%,
+    rgba(57, 43, 13, 1) 88%
+  );
   border-radius: 14px;
   padding: 5px;
+  font-family: "Courier Prime";
+  
 }
 
 .carousel {

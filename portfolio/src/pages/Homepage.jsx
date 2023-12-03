@@ -30,7 +30,7 @@ export default function Homepage() {
         <Card>
 
           <Card.Body>
-            <Card.Title>~A Bit About Me~</Card.Title>
+            <Card.Title className="title">~A Bit About Me~</Card.Title>
             <Card.Text className="card">
               "As a seasoned leader with 25 years of management experience, I
               have developed a deep understanding of what it takes to build and

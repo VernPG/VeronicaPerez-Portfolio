@@ -12,6 +12,23 @@ footer {
   align-content:last baseline;
 }
 
-
+ul {
+  font-size: 25px;
+  margin-top: 40px;
+  color: whitesmoke;
+  border-radius: 14px;
+  background: linear-gradient(
+    90deg,
+    rgba(130, 123, 111, 1) 1%,
+    rgba(147, 135, 112, 1) 23%,
+    rgba(113, 101, 78, 1) 48%,
+    rgba(62, 51, 28, 1) 71%,
+    rgba(57, 43, 13, 1) 88%
+  );
+  border-radius: 14px;
+  padding: 5px;
+  font-family: "Courier Prime";
+  
+}
 
 

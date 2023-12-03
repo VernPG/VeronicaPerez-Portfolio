@@ -4,6 +4,7 @@ import Homepage from "./pages/Homepage";
 import Footer from "./components/Footer";
 import About from "./pages/About";
 import Navigation from "./components/Navigation";
+import Resume from "./pages/Resume";
 import Navbar2 from "./components/Navbar2";
 import Project from "./pages/Project";
 import "bootstrap/dist/css/bootstrap.min.css";
