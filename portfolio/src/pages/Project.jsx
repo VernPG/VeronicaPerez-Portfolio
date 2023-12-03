@@ -18,7 +18,7 @@ export default function Project() {
           />
           <Carousel.Caption>
             <h5>Emotisong-Music Rating App</h5>
-            <figcaption>Visit the Repo Here and the User Site Here </figcaption>
+            <figcaption>Visit the Repo <a href="https://github.com/VernPG/music_rater.git">HERE</a> or the Deployed Site via Heroku <a href="https://emotisong-music-rater-cd144b6f7aad.herokuapp.com/">HERE</a> </figcaption>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item className="item">
@@ -29,7 +29,7 @@ export default function Project() {
           />
           <Carousel.Caption>
             <h5>Weather Dashboard</h5>
-            <figcaption>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</figcaption>
+            <figcaption>Visit the Repo <a href="https://github.com/VernPG/weather-dashboard.git">HERE</a> or the Deployed Site<a href="https://vernpg.github.io/weather-dashboard/">HERE</a></figcaption>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item className="item">
@@ -41,7 +41,7 @@ export default function Project() {
           <Carousel.Caption>
             <h5>First HTML & CSS Project</h5>
             <figcaption>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            Visit the Repo <a href="https://github.com/VernPG/portfolio.git">HERE</a> or the Deployed Site <a href="https://vernpg.github.io/portfolio/">HERE</a>
             </figcaption>
           </Carousel.Caption>
         </Carousel.Item>
@@ -54,7 +54,7 @@ export default function Project() {
           <Carousel.Caption>
             <h5>Workday Scheduler</h5>
             <figcaption>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+              Visit the Repo <a href="https://github.com/VernPG/workday-scheduler.git">HERE</a> or the Deployed Site <a href="https://vernpg.github.io/workday-scheduler/">HERE</a>
             </figcaption>
           </Carousel.Caption>
         </Carousel.Item>
@@ -65,9 +65,9 @@ export default function Project() {
             alt="Fifth slide"
           />
           <Carousel.Caption>
-            <h5>PWA</h5>
+            <h5>PWA- Progressive Web Apps</h5>
             <figcaption>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            Visit the Repo <a href="https://github.com/VernPG/PWA-Text-Editor.git">HERE</a>
             </figcaption>
           </Carousel.Caption>
         </Carousel.Item>
@@ -81,7 +81,21 @@ export default function Project() {
           <Carousel.Caption>
             <h5>Note Taker- Express.js</h5>
             <figcaption>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            Visit the Repo <a href="https://github.com/VernPG/express.js_note-taker.git">HERE</a> or the Deployed Site via Heroku <a href="https://express-note-taking-tool-a19d807db5dd.herokuapp.com/">HERE</a>
+            </figcaption>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item className="item">
+          <img
+            className="d-block "
+            src="/src/assets/ExpressNoteTaker.png"
+            alt="Sixth slide"
+          />
+
+          <Carousel.Caption>
+            <h5>PetSpace- Pet Finding App</h5>
+            <figcaption>
+            Visit the Repo <a href="https://github.com/nestibry/pet-space.git">HERE</a> or the Deployed Site via Heroku <a href="https://nestibry.github.io/pet-space/">HERE</a>
             </figcaption>
           </Carousel.Caption>
         </Carousel.Item>

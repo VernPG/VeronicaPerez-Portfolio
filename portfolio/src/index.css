@@ -151,6 +151,9 @@ figcaption {
   margin-bottom: -20px;
   font-size: 30px;
   color: black;
+  font-family: "Special Elite";
+  font-weight: bolder;
+
 }
 img {
   max-height: 600px;
