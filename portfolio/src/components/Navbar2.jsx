@@ -17,10 +17,11 @@ export default function Navbar2(){
           />
         </Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="Homepage">Home</Nav.Link>
+            <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="Resume">Resume</Nav.Link>
             <Nav.Link href="Project">Projects</Nav.Link>
-            <Nav.Link href="About">About & Contact</Nav.Link>
+            <Nav.Link href="About">About </Nav.Link>
+            <Nav.Link href="Contact">Contact </Nav.Link>
           </Nav>
         </Container>
       </Navbar>
