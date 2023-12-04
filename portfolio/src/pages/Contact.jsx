@@ -18,40 +18,57 @@ export default function Contact() {
     contactType: "",
   });
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
-  };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
+  
     try {
-      // Send the form data to the server-side script (replace with your actual endpoint)
-      const response = await fetch("/api/send-email", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
-      });
-
-      if (response.ok) {
-        console.log("Email sent successfully!");
-
+      //what am I changing the local host too? 5173?
+      // const response = await fetch('http://localhost:5000/api/send-email', {
+      //   method: 'POST',
+      //   headers: {
+      //     'Content-Type': 'application/json',
+      //   },
+      //   body: JSON.stringify(formData),
+      // });
+  
+      // if (response.ok) {
+      //   console.log('Email sent successfully!');
+      //   setFormData({
+      //     fullName: '',
+      //     email: '',
+      //     message: '',
+      //     contactType: '',
+      //   });
+      // } else {
+      //   console.error('Error sending email');
+      // }
+     const response = await emailjs.send("service_mcrt3jq", "template_ic94pbm", formData);
+     console.log(response)
+     if (response.text === "OK") {
+        console.log('Email sent successfully!');
         setFormData({
-          fullName: "",
-          email: "",
-          message: "",
-          contactType: "",
+          fullName: '',
+          email: '',
+          message: '',
+          contactType: '',
         });
       } else {
-        console.error("Error sending email");
+        console.error('Error sending email');
       }
+
     } catch (error) {
-      console.error("Error:", error);
+      console.error('Error:', error);
     }
   };
+  
+  const handleChange = (e)=>{
+    const {name, value} = e.target
+    console.log(name, value)
+    setFormData({...formData, [name]: value})
+  }
+
+    
   return (
     <>
       <header>
@@ -72,7 +89,10 @@ export default function Contact() {
           <Col sm={10}>
             <Form.Control
               type="name"
+              name="fullName"
+              value={formData.fullName}
               placeholder="Enter your full name here..."
+              onChange={handleChange}
             />
           </Col>
         </Form.Group>

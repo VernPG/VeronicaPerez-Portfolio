@@ -29,22 +29,22 @@ export default function Project() {
             <h5>Emotisong-Music Rating App <br /> Visit the Repo <a href="https://github.com/VernPG/music_rater.git">HERE</a> or the Deployed Site via Heroku <a href="https://emotisong-music-rater-cd144b6f7aad.herokuapp.com/">HERE</a> </h5>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item className="item">
+        {/* <Carousel.Item className="item">
           <img
             className="d-block "
             src="/src/assets/WeatherDashboard.png"
             alt="Second slide"
           />
-          {/* <Carousel.Caption>
+          <Carousel.Caption>
             <h5>Weather Dashboard <br /> Visit the Repo <a href="https://github.com/VernPG/weather-dashboard.git">HERE</a> or the Deployed Site<a href="https://vernpg.github.io/weather-dashboard/">HERE</a></h5>
           </Carousel.Caption>
-        </Carousel.Item>
+        </Carousel.Item> */}
         <Carousel.Item className="item">
           <img
             className="d-block "
             src="/src/assets/FirstPortfolio.png"
             alt="Third slide"
-          /> */}
+          />
           <Carousel.Caption>
             <h5>First HTML & CSS Portfolio Project <br />
             Visit the Repo <a href="https://github.com/VernPG/portfolio.git">HERE</a> or the Deployed Site <a href="https://vernpg.github.io/portfolio/">HERE</a>

@@ -45,7 +45,7 @@ aside {
   padding: 20px;
   margin-top: 80px;
   /* margin-left: 40px; */
-  /* align-items: center; */
+  align-items: center;
   text-align: center;
 }
 
@@ -68,7 +68,7 @@ aside {
 .card {
   color: white;
   font-size: 25px;
-  /* align-items: center; */
+  align-items: center;
   font-style: italic;
   font-weight: bolder;
   font-family: "Special Elite";
@@ -80,7 +80,7 @@ aside {
   border-style: double;
   box-shadow: 20px 20px 20px 20px antiquewhite;
 }
-.profile {
+img {
   justify-content: right;
   width: "30%";
   height: "30%";
@@ -147,10 +147,7 @@ h5 {
   font-family: "Special Elite";
   font-weight: bolder;
 }
-img {
-  max-width: 540px;
-  max-height: fit-content;
-}
+
 .item {
   border-radius: 30%;
   background-image: url("./assets/sj-objio-XFWiZTa2Ub0-unsplash.jpg");
@@ -162,6 +159,8 @@ img {
 .d-block {
   width: 740px;
   height: 640px;
+  max-width: 540px;
+  max-height: fit-content;
   padding-top: 10px;
   margin: auto;
   border: whitesmoke;
@@ -193,4 +192,5 @@ footer {
   color: antiquewhite;
   align-items: center;
   align-content: last baseline;
+  margin-top: 25%;
 }

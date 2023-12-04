@@ -42,8 +42,8 @@ export default function Homepage() {
           <div className="card-body">
             <div className="row">
               <div className="col-md-6">
-                <h5 className="title text-muted">~A Bit About Me~</h5>
-                <p className="card">
+                {/* <h5 className="title text-muted">~A Bit About Me~</h5> */}
+                <p className="cardProfile">
                   "As a seasoned leader with 25 years of management experience,
                   I have developed a deep understanding of what it takes to
                   build and manage high-performing teams. I am passionate about
@@ -52,11 +52,13 @@ export default function Homepage() {
                   candidate for a product manager role."
                 </p>
               </div>
-              <div className="profile col-md-6">
-                <img
+              <div className="col-md-6">
+                <img 
+                  className="img-fluid"
                   src="/src/assets/linkedinprofile pict 2.jpeg"
-                  alt="Image"
-                  className="img-fluid rounded"
+                  alt="Profile"
+                  style={{ marginLeft: 'auto', marginRight: '0'}}
+                  
                 />
               </div>
             </div>

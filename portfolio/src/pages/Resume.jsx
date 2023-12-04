@@ -5,19 +5,22 @@ import React from "react";
 
 
 export default function Resume() {
-  const [open, setOpen] = useState(false);
+  const [openSkills, setOpenSkills] = useState(false);
+  const [openExp, setOpenExp] = useState(false);
+  const [openEdu, setOpenEdu] = useState(false);
+
   return (
     <>
 
     <section>
     <Button
-        onClick={() => setOpen(!open)}
+        onClick={() => setOpenSkills(!openSkills)}
         aria-controls="example-fade-text"
-        aria-expanded={open}
+        aria-expanded={openSkills}
       >
         Skills
       </Button>
-      <Fade in={open}>
+      <Fade in={openSkills}>
         <div id="example-fade-text">
           Results-oriented and seasoned professional with over 20 years of
           experience in sales, consulting, and purchasing, demonstrating
@@ -37,13 +40,13 @@ export default function Resume() {
       
       <section>
       <Button
-        onClick={() => setOpen(!open)}
+        onClick={() => setOpenExp(!openExp)}
         aria-controls="example-fade-text"
-        aria-expanded={open}
+        aria-expanded={openExp}
       >
         Business Experience
       </Button>
-      <Fade in={open}>
+      <Fade in={openExp}>
         <div id="example-fade-text">
           Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
           terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer
@@ -54,13 +57,13 @@ export default function Resume() {
 
      <section>
      <Button
-        onClick={() => setOpen(!open)}
+        onClick={() => setOpenEdu(!openEdu)}
         aria-controls="example-fade-text"
-        aria-expanded={open}
+        aria-expanded={openEdu}
       >
         Education
       </Button>
-      <Fade in={open}>
+      <Fade in={openEdu}>
         <div id="example-fade-text">
           Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
           terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer
