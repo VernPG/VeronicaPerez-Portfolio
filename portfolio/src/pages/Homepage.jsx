@@ -41,23 +41,20 @@ export default function Homepage() {
         <div className="card">
           <div className="card-body">
             <div className="row">
-              {/* Text Column */}
               <div className="col-md-6">
-                <h5 className="card-title">~A Bit About Me~</h5>
-                <p className="card-text">
-                "As a seasoned leader with 25 years of management experience, I
-              have developed a deep understanding of what it takes to build and
-              manage high-performing teams. I am passionate about developing
-              innovative solutions to complex problems, and I believe that my
-              skills and experience make me an ideal candidate for a product
-              manager role."
+                <h5 className="title text-muted">~A Bit About Me~</h5>
+                <p className="card">
+                  "As a seasoned leader with 25 years of management experience,
+                  I have developed a deep understanding of what it takes to
+                  build and manage high-performing teams. I am passionate about
+                  developing innovative solutions to complex problems, and I
+                  believe that my skills and experience make me an ideal
+                  candidate for a product manager role."
                 </p>
               </div>
-
-              {/* Image Column */}
-              <div className="col-md-6">
+              <div className="profile col-md-6">
                 <img
-                  src="/src/assets/linkedinprofile pict 2.jpeg" // Replace with your image source
+                  src="/src/assets/linkedinprofile pict 2.jpeg"
                   alt="Image"
                   className="img-fluid rounded"
                 />

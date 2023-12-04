@@ -9,7 +9,7 @@ import Navbar2 from "./components/Navbar2";
 import Project from "./pages/Project";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-// import Contact from "./pages/Contact";
+import Contact from "./pages/Contact";
 
 
 function App() {
@@ -26,7 +26,7 @@ function App() {
             <Route path="/About" element={<About />} />
             <Route path="/Project" element={<Project />} />
             <Route path="/Resume" element={<Resume />} />
-            {/* <Route path="/Contact" element={<Contact />} /> */}
+            <Route path="/Contact" element={<Contact />} />
  
             
           </Routes>

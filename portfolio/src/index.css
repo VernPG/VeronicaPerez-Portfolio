@@ -8,7 +8,7 @@ body {
 
 .me-auto {
   font-size: 25px;
-  justify-content:space-between;
+  justify-content: space-between;
 }
 
 .icon {
@@ -16,7 +16,6 @@ body {
   border: solid;
   border-style: dotted;
   border-radius: 50%;
-  
 }
 h1 {
   font-size: 100px;
@@ -65,7 +64,6 @@ aside {
 .title {
   font-family: "Special Elite";
   font-weight: bold;
-
 }
 .card {
   color: white;
@@ -81,7 +79,6 @@ aside {
   background-color: black;
   border-style: double;
   box-shadow: 20px 20px 20px 20px antiquewhite;
-
 }
 .profile {
   justify-content: right;
@@ -121,7 +118,7 @@ a {
   font-size: 35px;
   color: goldenrod;
   font-weight: bolder;
-  background-color:black;
+  background-color: black;
 }
 
 ul {
@@ -177,22 +174,23 @@ img {
 }
 
 .form {
-  max-width: 740px;
+  width: 1080px;
   background-color: black;
   border-color: antiquewhite;
-  border-style: double;
-  border-radius: 14%;
+  border-style: dotted;
+  border-radius: 15%;
   padding: 40px;
-  align-items: center;
   margin-top: 60px;
-  text-align: center;
   margin: 0 auto;
-  align-items: center;
   display: inline-block;
+}
+
+.mb-3 {
+  text-align: start;
 }
 
 footer {
   color: antiquewhite;
-  align-items:center;
-  align-content:last baseline;
+  align-items: center;
+  align-content: last baseline;
 }
