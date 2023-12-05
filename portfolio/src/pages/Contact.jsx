@@ -4,82 +4,80 @@ import Form from "react-bootstrap/Form";
 import Row from "react-bootstrap/Row";
 import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-//how do i user the validator?
-// import * as EmailValidator from 'email-validator';
-//  EmailValidator.validate("test@email.com");
 
 export default function Contact() {
-  // const validator = require("email-validator");
-  // validator.validate("test@email.com");
   const [formData, setFormData] = useState({
     fullName: "",
     email: "",
     message: "",
-    contactType: "",
+    // contactType: "",
   });
-
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-  
+
     try {
-      //what am I changing the local host too? 5173?
-      // const response = await fetch('http://localhost:5000/api/send-email', {
-      //   method: 'POST',
-      //   headers: {
-      //     'Content-Type': 'application/json',
-      //   },
-      //   body: JSON.stringify(formData),
-      // });
-  
-      // if (response.ok) {
-      //   console.log('Email sent successfully!');
-      //   setFormData({
-      //     fullName: '',
-      //     email: '',
-      //     message: '',
-      //     contactType: '',
-      //   });
-      // } else {
-      //   console.error('Error sending email');
-      // }
-     const response = await emailjs.send("service_mcrt3jq", "template_ic94pbm", formData);
-     console.log(response)
-     if (response.text === "OK") {
-        console.log('Email sent successfully!');
+      const response = await emailjs.send(
+        "service_mcrt3jq",
+        "template_ic94pbm",
+        formData
+      );
+      console.log(response);
+      if (response.text === "OK") {
+        console.log("Email sent successfully!");
         setFormData({
-          fullName: '',
-          email: '',
-          message: '',
-          contactType: '',
+          fullName: "",
+          email: "",
+          message: "",
+          // contactType: "",
         });
       } else {
-        console.error('Error sending email');
+        console.error("Error sending email");
       }
-
     } catch (error) {
-      console.error('Error:', error);
+      console.error("Error:", error);
     }
   };
-  
-  const handleChange = (e)=>{
-    const {name, value} = e.target
-    console.log(name, value)
-    setFormData({...formData, [name]: value})
-  }
 
-    
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    console.log(name, value);
+    setFormData({ ...formData, [name]: value });
+  };
+
   return (
     <>
       <header>
-        <ul className="text-muted">
+        <div className="container mt-5">
+          <div className="card">
+            <div className="card-body">
+              <div className="row">
+                <p className="cardProfile">
+                  "Thank you for visiting my portfolio. I'm excited about the
+                  potential to connect with you. If you're interested in
+                  exploring opportunities for collaboration, please take a
+                  moment to fill out the form below.
+                  <br />
+                  <br />
+                  Provide your name and email, and don't forget to include a
+                  message if you express interest in connecting for job
+                  opportunities, projects, or professional networking for future
+                  endeavors."
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* <ul className="text-muted">
           "Thank you for visiting my portfolio. I'm excited about the potential
           to connect with you. If you're interested in exploring opportunities
           for collaboration, please take a moment to fill out the form below.
-          Provide your name and email, and don't forget to select the relevant
-          box to indicate your interest in connecting for job opportunities,
-          projects, or professional networking for future endeavors."
-        </ul>
+          <br />
+          <br />
+          Provide your name and email, and don't forget to include a message if
+          you express interest in connecting for job opportunities, projects, or
+          professional networking for future endeavors."
+        </ul> */}
       </header>
       <Form className="form" onSubmit={handleSubmit}>
         <Form.Group as={Row} className="mb-3" controlId="fullName">
@@ -101,7 +99,13 @@ export default function Contact() {
             Email
           </Form.Label>
           <Col sm={10}>
-            <Form.Control type="email" placeholder="Enter your email here..." />
+            <Form.Control
+              type="email"
+              name="email"
+              value={formData.email}
+              placeholder="Enter your email here..."
+              onChange={handleChange}
+            />
           </Col>
         </Form.Group>
 
@@ -112,11 +116,14 @@ export default function Contact() {
           <Col sm={10}>
             <Form.Control
               type="message"
+              name="message"
+              value={formData.message}
               placeholder="Type your message here..."
+              onChange={handleChange}
             />
           </Col>
         </Form.Group>
-        <fieldset>
+        {/* <fieldset>
           <Form.Group as={Row} className="mb-3">
             <Form.Label as="legend" column sm={2}>
               Check One
@@ -140,9 +147,16 @@ export default function Contact() {
                 name="formHorizontalRadios"
                 id="formHorizontalRadios3"
               />
+              <Form.Control
+                type="contactType"
+                name="contactType"
+                value={formData.contactType}
+                onChange={handleChange}
+                placeholder="Other...."
+              />
             </Col>
           </Form.Group>
-        </fieldset>
+        </fieldset> */}
         {/* <Form.Group as={Row} className="mb-3" controlId="formHorizontalCheck">
           <Col sm={{ span: 10, offset: 2 }}>
             <Form.Check label="Remember me" />
