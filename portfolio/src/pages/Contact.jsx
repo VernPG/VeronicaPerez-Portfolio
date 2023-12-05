@@ -78,11 +78,14 @@ export default function Contact() {
           you express interest in connecting for job opportunities, projects, or
           professional networking for future endeavors."
         </ul> */}
+        
       </header>
+    
       <Form className="form" onSubmit={handleSubmit}>
+      <h2>Message Me for More Info</h2><br />
         <Form.Group as={Row} className="mb-3" controlId="fullName">
           <Form.Label column sm={2}>
-            First & Last Name
+            Name
           </Form.Label>
           <Col sm={10}>
             <Form.Control

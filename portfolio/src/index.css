@@ -4,6 +4,9 @@ body {
   background-image: url("./assets/william-j-simpson-LqRJ1Oc9zlw-unsplash.jpg");
   background-size:cover;
   font-family: "Courier Prime";
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 .me-auto {
@@ -30,7 +33,7 @@ h2 {
   padding-top: 50px;
   text-align: center;
   font-family: "Courier Prime";
-  color: antiquewhite;
+  color: white;
 }
 aside {
   font-style: italic;
@@ -164,6 +167,7 @@ h5 {
   color: black;
   font-family: "Special Elite";
   font-weight: bolder;
+  
 }
 
 .item {
@@ -192,14 +196,12 @@ h5 {
 
 .form {
   width: 1080px;
-  background-color: black;
-  border-color: antiquewhite;
-  border-style: dotted;
-  border-radius: 15%;
+  background-color: transparent;
   padding: 40px;
-  margin-top: 20%;
+  margin-top: 40px;
   margin: 0 auto;
   display: inline-block;
+  font-size: 35px;
 }
 
 .mb-3 {
