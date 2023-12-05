@@ -23,7 +23,7 @@ export default function Homepage() {
             <div className="row">
               <div className="col-md-6">
                 {/* <h5 className="title text-muted">~A Bit About Me~</h5> */}
-                <p className="cardProfile">
+                <p className="cardProfile text-muted">
                   "As a seasoned leader with 25 years of management experience,
                   I have developed a deep understanding of what it takes to
                   build and manage high-performing teams. I am passionate about
@@ -40,6 +40,9 @@ export default function Homepage() {
                   style={{ marginLeft: 'auto', marginRight: '0'}}
                   
                 />
+              </div>
+              <div>
+                <p> more info links</p>
               </div>
             </div>
           </div>

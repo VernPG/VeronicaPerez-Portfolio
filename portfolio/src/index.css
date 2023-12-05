@@ -86,6 +86,12 @@ aside {
   border-style: double;
   box-shadow: 20px 20px 20px 20px antiquewhite; */
 }
+
+.img-fluid {
+  border-radius: 50%;
+  /* max-width: 340px; */
+  /* padding-top: 20%; */
+}
 img {
   justify-content: right;
   width: "30%";
@@ -192,6 +198,11 @@ h5 {
   flex-wrap: wrap;
   object-fit: contain;
   align-content: center;
+}
+
+.accordion{
+  padding-top: 40px;
+  /* position: relative; */
 }
 
 .form {

@@ -52,7 +52,7 @@ export default function Contact() {
           <div className="card">
             <div className="card-body">
               <div className="row">
-                <p className="cardProfile">
+                <p className="cardProfile text-muted">
                   "Thank you for visiting my portfolio. I'm excited about the
                   potential to connect with you. If you're interested in
                   exploring opportunities for collaboration, please take a
@@ -82,7 +82,7 @@ export default function Contact() {
       </header>
     
       <Form className="form" onSubmit={handleSubmit}>
-      <h2>Message Me for More Info</h2><br />
+      <h2>Message Me</h2><br />
         <Form.Group as={Row} className="mb-3" controlId="fullName">
           <Form.Label column sm={2}>
             Name
@@ -160,11 +160,6 @@ export default function Contact() {
             </Col>
           </Form.Group>
         </fieldset> */}
-        {/* <Form.Group as={Row} className="mb-3" controlId="formHorizontalCheck">
-          <Col sm={{ span: 10, offset: 2 }}>
-            <Form.Check label="Remember me" />
-          </Col>
-        </Form.Group> */}
 
         <Form.Group as={Row} className="mb-3">
           <Col sm={{ span: 10, offset: 2 }}>

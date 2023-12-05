@@ -8,7 +8,7 @@ export default function Project() {
           <div className="card-body">
             <div className="row">
 
-                <p className="cardProfile">
+                <p className="cardProfile text-muted">
                   "As a dedicated bootcamp participant, I have successfully
                   accomplished numerous individual and collaborative projects,
                   enhancing my proficiency as both a skilled coder and an adept
