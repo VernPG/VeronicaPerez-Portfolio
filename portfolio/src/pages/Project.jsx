@@ -12,19 +12,7 @@ import PetSpace from "../assets/images/PetSpace.png"
 export default function Project() {
   return (
     <>
-     
-      {/* <header>
-        <ul className="card2 text-muted">
-          "As a dedicated bootcamp participant, I have successfully accomplished
-          numerous individual and collaborative projects, enhancing my
-          proficiency as both a skilled coder and an adept project manager.
-          <br />
-          <br />
-          Kindly explore my GitHub repositories under the username @VernPg or
-          access the provided links for detailed insights into the highlighted
-          projects."
-        </ul>
-      </header> */}
+
 <h1 className="highlights">Portfolio Projects </h1>
 <Container fluid>
   <Carousel>
@@ -49,16 +37,7 @@ export default function Project() {
             </h4>
           </Carousel.Caption>
         </Carousel.Item>
-        {/* <Carousel.Item className="item">
-          <img
-            className="d-block "
-            src="/src/assets/WeatherDashboard.png"
-            alt="Second slide"
-          />
-          <Carousel.Caption>
-            <h4>Weather Dashboard <br /> Visit the Repo <a href="https://github.com/VernPG/weather-dashboard.git">HERE</a> or the Deployed Site<a href="https://vernpg.github.io/weather-dashboard/">HERE</a></h4>
-          </Carousel.Caption>
-        </Carousel.Item> */}
+
         <Carousel.Item className="item">
           <img
             className="d-block "

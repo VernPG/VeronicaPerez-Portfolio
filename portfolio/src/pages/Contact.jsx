@@ -47,9 +47,8 @@ export default function Contact() {
 
   return (
     <>
-    <h1 className="highlights">Send Me a Message  </h1>
-    <Form className="form" onSubmit={handleSubmit}>
-      {/* <h2>Message Me</h2><br /> */}
+      <h1 className="highlights">Send Me a Message </h1>
+      <Form className="form" onSubmit={handleSubmit}>
         <Form.Group as={Row} className="mb-3" controlId="fullName">
           <Form.Label column sm={2}>
             Name
@@ -93,44 +92,12 @@ export default function Contact() {
             />
           </Col>
         </Form.Group>
-        {/* <fieldset>
-          <Form.Group as={Row} className="mb-3">
-            <Form.Label as="legend" column sm={2}>
-              Check One
-            </Form.Label>
-            <Col sm={10}>
-              <Form.Check
-                type="radio"
-                label="I have a Job Opportunity for You!"
-                name="formHorizontalRadios"
-                id="formHorizontalRadios1"
-              />
-              <Form.Check
-                type="radio"
-                label="I Want to Network with You!"
-                name="formHorizontalRadios"
-                id="formHorizontalRadios2"
-              />
-              <Form.Check
-                type="radio"
-                label="Let's Schedule a Chat"
-                name="formHorizontalRadios"
-                id="formHorizontalRadios3"
-              />
-              <Form.Control
-                type="contactType"
-                name="contactType"
-                value={formData.contactType}
-                onChange={handleChange}
-                placeholder="Other...."
-              />
-            </Col>
-          </Form.Group>
-        </fieldset> */}
 
         <Form.Group as={Row} className="mb-3">
           <Col sm={{ span: 10, offset: 2 }}>
-            <Button variant="light" type="submit">Submit</Button>
+            <Button variant="light" type="submit">
+              Submit
+            </Button>
           </Col>
         </Form.Group>
       </Form>
@@ -155,20 +122,7 @@ export default function Contact() {
             </div>
           </div>
         </div>
-        {/* <ul className="text-muted">
-          "Thank you for visiting my portfolio. I'm excited about the potential
-          to connect with you. If you're interested in exploring opportunities
-          for collaboration, please take a moment to fill out the form below.
-          <br />
-          <br />
-          Provide your name and email, and don't forget to include a message if
-          you express interest in connecting for job opportunities, projects, or
-          professional networking for future endeavors."
-        </ul> */}
-        
       </header>
-    
-
     </>
   );
 }

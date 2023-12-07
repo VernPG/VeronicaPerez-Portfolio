@@ -6,10 +6,9 @@ import { Link } from "react-router-dom";
 export default function About() {
   return (
     <>
-    <h1 className="highlights">About Me </h1>
-      <Card className="container" >
-        <Card.Body   >
-
+      <h1 className="highlights">About Me </h1>
+      <Card className="container">
+        <Card.Body>
           <Card.Text className="text-muted">
             <p className="text-muted">
               As a full-stack coding bootcamp graduate, I am seeking
@@ -35,12 +34,7 @@ export default function About() {
             </p>
           </Card.Text>
           <p className="mb-2 text-muted">Let's Connect</p>
-          {/* <Card.Link
-            className="links"
-            href="https://docs.google.com/document/d/1z_g0oW8WTrCLP8OUsIzq5weJPPEbX7iU2G3urSuZIKg/edit?usp=sharing"
-          >
-            Resume
-          </Card.Link> */}
+
           <Card.Link
             className="links"
             href="https://www.linkedin.com/in/veronica-perez-9714b28/"

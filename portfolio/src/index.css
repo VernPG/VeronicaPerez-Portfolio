@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Atomic+Age&family=Cormorant&family=Courier+Prime:wght@400;700&family=Monoton&family=Righteous&family=Special+Elite&family=Spectral:wght@300&display=swap");
 
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
   /* line-height: 1.5;
   font-weight: 400;
 
@@ -18,7 +18,7 @@
 
 body {
   background-image: url("./assets/william-j-simpson-LqRJ1Oc9zlw-unsplash.jpg");
-  background-size: contain;
+  background-size: cover;
   font-family: "Courier Prime";
 }
 
