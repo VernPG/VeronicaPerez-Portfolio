@@ -5,14 +5,12 @@ import { Link } from "react-router-dom";
 
 export default function About() {
   return (
-
-
     <>
-      <Card className="card2" style={{ width: "1180px" }}>
-        <Card.Body>
-          <Card.Title></Card.Title>
-          <Card.Subtitle className="mb-2 text-muted">About Me</Card.Subtitle>
-          <Card.Text className="cardtext text-muted">
+    <h1 className="highlights">About Me </h1>
+      <Card className="container" >
+        <Card.Body   >
+
+          <Card.Text className="text-muted">
             <p className="text-muted">
               As a full-stack coding bootcamp graduate, I am seeking
               opportunities in operations, product management, or a human

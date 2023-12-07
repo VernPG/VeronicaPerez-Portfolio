@@ -1,5 +1,5 @@
 import React from "react";
-import Carousel from "react-bootstrap/Carousel";
+import{ Carousel, Container }from "react-bootstrap";
 export default function Project() {
   return (
     <>
@@ -16,8 +16,9 @@ export default function Project() {
           projects."
         </ul>
       </header> */}
-
-      <Carousel>
+<h1 className="highlights">Portfolio Projects </h1>
+<Container fluid>
+  <Carousel>
         <Carousel.Item className="item">
           <img
             className="d-block "
@@ -145,6 +146,8 @@ export default function Project() {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
+</Container>
+      
       <div className="container mt-5">
         <div className="card">
           <div className="card-body">

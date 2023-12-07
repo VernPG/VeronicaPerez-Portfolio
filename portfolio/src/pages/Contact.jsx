@@ -47,42 +47,9 @@ export default function Contact() {
 
   return (
     <>
-      <header>
-        <div className="container mt-5">
-          <div className="card">
-            <div className="card-body">
-              <div className="row">
-                <p className="cardProfile text-muted">
-                  "Thank you for visiting my portfolio. I'm excited about the
-                  potential to connect with you. If you're interested in
-                  exploring opportunities for collaboration, please take a
-                  moment to fill out the form below.
-                  <br />
-                  <br />
-                  Provide your name and email, and don't forget to include a
-                  message if you express interest in connecting for job
-                  opportunities, projects, or professional networking for future
-                  endeavors."
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* <ul className="text-muted">
-          "Thank you for visiting my portfolio. I'm excited about the potential
-          to connect with you. If you're interested in exploring opportunities
-          for collaboration, please take a moment to fill out the form below.
-          <br />
-          <br />
-          Provide your name and email, and don't forget to include a message if
-          you express interest in connecting for job opportunities, projects, or
-          professional networking for future endeavors."
-        </ul> */}
-        
-      </header>
-    
-      <Form className="form" onSubmit={handleSubmit}>
-      <h2>Message Me</h2><br />
+    <h1 className="highlights">Send Me a Message  </h1>
+    <Form className="form" onSubmit={handleSubmit}>
+      {/* <h2>Message Me</h2><br /> */}
         <Form.Group as={Row} className="mb-3" controlId="fullName">
           <Form.Label column sm={2}>
             Name
@@ -163,10 +130,45 @@ export default function Contact() {
 
         <Form.Group as={Row} className="mb-3">
           <Col sm={{ span: 10, offset: 2 }}>
-            <Button type="submit">Submit</Button>
+            <Button variant="light" type="submit">Submit</Button>
           </Col>
         </Form.Group>
       </Form>
+      <header>
+        <div className="container mt-5">
+          <div className="card">
+            <div className="card-body">
+              <div className="row">
+                <p className="cardProfile text-muted">
+                  "Thank you for visiting my portfolio. I'm excited about the
+                  potential to connect with you. If you're interested in
+                  exploring opportunities for collaboration, please take a
+                  moment to fill out the form below.
+                  <br />
+                  <br />
+                  Provide your name and email, and don't forget to include a
+                  message if you express interest in connecting for job
+                  opportunities, projects, or professional networking for future
+                  endeavors."
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* <ul className="text-muted">
+          "Thank you for visiting my portfolio. I'm excited about the potential
+          to connect with you. If you're interested in exploring opportunities
+          for collaboration, please take a moment to fill out the form below.
+          <br />
+          <br />
+          Provide your name and email, and don't forget to include a message if
+          you express interest in connecting for job opportunities, projects, or
+          professional networking for future endeavors."
+        </ul> */}
+        
+      </header>
+    
+
     </>
   );
 }

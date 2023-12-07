@@ -11,15 +11,12 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Contact from "./pages/Contact";
 
-
 function App() {
   return (
     <>
-    <Navbar2 />
-
-      <div className="App">
+      <div style={{width: '100vw', textAlign: 'center'}}>
+        <Navbar2 />
         <BrowserRouter>
-
           <Routes>
             <Route path="/" element={<Homepage />} />
             <Route path="/Navigation" element={<Navigation />} />
@@ -27,22 +24,13 @@ function App() {
             <Route path="/Project" element={<Project />} />
             <Route path="/Resume" element={<Resume />} />
             <Route path="/Contact" element={<Contact />} />
- 
-            
           </Routes>
-          
         </BrowserRouter>
-
       </div>
       <div>
-
-    
-      <Footer />
-
+        <Footer />
       </div>
     </>
-
-
   );
 }
 
