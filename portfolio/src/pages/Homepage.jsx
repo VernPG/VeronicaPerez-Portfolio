@@ -7,6 +7,8 @@ import Col from "react-bootstrap/Col";
 import Navbar from "react-bootstrap/Navbar";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
+import linkedin from "../assets/linkedinphoto.jpeg"
+
 
 export default function Homepage() {
   return (
@@ -44,9 +46,9 @@ export default function Homepage() {
               <div className="col-md-6">
                 <img
                   className="img-fluid"
-                  src="/src/assets/linkedinprofile pict 2.jpeg"
+                  src={linkedin}
                   alt="Profile"
-                  // style={{ marginLeft: "auto", marginRight: "0" }}
+           
                 />
               </div>
               <div>

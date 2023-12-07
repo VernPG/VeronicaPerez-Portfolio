@@ -1,5 +1,14 @@
 import React from "react";
 import{ Carousel, Container }from "react-bootstrap";
+import NoteTaker from "../assets/images/NoteTaker.png"
+import Emotisong from "../assets/images/Emotisong.png"
+import Portfolio from "../assets/images/Portfolio.png"
+import PWA from "../assets/images/PWA.png"
+import Scheduler from "../assets/images/Scheduler.png"
+import PetSpace from "../assets/images/PetSpace.png"
+
+
+
 export default function Project() {
   return (
     <>
@@ -22,7 +31,7 @@ export default function Project() {
         <Carousel.Item className="item">
           <img
             className="d-block "
-            src="/src/assets/Emotisong.png"
+            src={Emotisong}
             alt="First slide"
           />
           <Carousel.Caption>
@@ -53,7 +62,7 @@ export default function Project() {
         <Carousel.Item className="item">
           <img
             className="d-block "
-            src="/src/assets/Portfolio.png"
+            src={Portfolio}
             alt="Third slide"
           />
           <Carousel.Caption>
@@ -71,7 +80,7 @@ export default function Project() {
         <Carousel.Item className="item">
           <img
             className="d-block "
-            src="/src/assets/Scheduler.png"
+            src={Scheduler}
             alt="Fourth slide"
           />
           <Carousel.Caption>
@@ -89,7 +98,7 @@ export default function Project() {
         <Carousel.Item className="item">
           <img
             className="d-block "
-            src="/src/assets/PWA.png"
+            src={PWA}
             alt="Fifth slide"
           />
           <Carousel.Caption>
@@ -105,7 +114,7 @@ export default function Project() {
         <Carousel.Item className="item">
           <img
             className="d-block "
-            src="/src/assets/NoteTaker.png"
+            src={NoteTaker}
             alt="Sixth slide"
           />
 
@@ -129,7 +138,7 @@ export default function Project() {
         <Carousel.Item className="item">
           <img
             className="d-block "
-            src="/src/assets/Screenshot 2023-12-03 at 3.55.43 PM.png"
+            src={PetSpace}
             alt="Sixth slide"
           />
 
