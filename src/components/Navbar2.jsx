@@ -1,6 +1,7 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import logo from "../assets/images/logo.svg"
 
 export default function Navbar2() {
   return (
@@ -8,7 +9,7 @@ export default function Navbar2() {
       <Container>
         <Navbar.Brand className="icon" href="/">
           <img
-            src="/src/assets/newLogoCircle.svg"
+            src={logo}
             width="150"
             height="100"
             className="d-inline-block align-top"
