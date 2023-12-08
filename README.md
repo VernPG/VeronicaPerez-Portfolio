@@ -1,6 +1,6 @@
-# 20 React: React Portfolio
+#  React: Veronica Perez's React Portfolio
 
-## Your Task
+## Description
 
 Being a web developer means being part of a community to not only to share projects while applying for jobs or working as a freelancer, but also to share work with other developers and collaborate on projects.
 
