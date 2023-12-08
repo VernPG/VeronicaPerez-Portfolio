@@ -6,14 +6,15 @@ Being a web developer means being part of a community to not only to share proje
 
 The task was to create a portfolio using React skills.
 
-  ## Table of Contents
-  * [Installation](#installation)
-  * [Usage](#usage)
-  * [Images and Repo](#images)
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Images and Repo](#images)
 
 ## Installation
-Please visit my portfolio at [![Netlify Status](https://api.netlify.com/api/v1/badges/29f8b75d-aee3-4aaa-8209-eb05c0d78ef7/deploy-status)](https://app.netlify.com/sites/veronicaperezportfolio/deploys)
 
+[Deployed site can be found HERE] (https://main--veronicaperezportfolio.netlify.app/)
 
 ## Usage
 
@@ -45,10 +46,11 @@ WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
 ```
 
- ## Images and Repo
+## Images and Repo
 
- ![Preview Image]()
+![Preview Image](./src/assets/images/Screenshot%202023-12-08%20at%202.41.14 PM.png)
+![Preview Image](./src/assets/images/Screenshot%202023-12-08%20at%202.43.55 PM.png)
+![Preview Image](./src/assets/images/Screenshot%202023-12-08%20at%202.44.19 PM.png)
+![Preview Image](./src/assets/images/Screenshot%202023-12-08%20at%202.45.05 PM.png)
 
- ** [GitHub Repo can be found HERE] ()
-
- 
+\*\* [GitHub Repo can be found HERE] (https://github.com/VernPG/VeronicaPerez-Portfolio.git)
